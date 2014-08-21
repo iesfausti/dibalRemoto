@@ -1,0 +1,6 @@
+mkdir static
+cd static
+
+ln -s  admin /nfs/http7/febal/.virtualenvs/febal/lib/python2.7/site-packages/django/contrib/admin/static/admin
+
+ln -s admin_tools /nfs/http7/febal/.virtualenvs/febal/lib/python2.7/site-packages/django_admin_tools-0.5.1-py2.7.egg/admin_tools/static/admin_tools

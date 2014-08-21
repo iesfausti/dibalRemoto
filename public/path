@@ -1,0 +1,18 @@
+Pata importar esructura solo funciona el django 1.4.3, se puede reisnatlae el 1.7 luego
+y se usa manager.py mdb_inspect, despues de haber puesto la app. 'access' en settings.py
+
+
+Cosas cambiadas!
+compiler.py  return close.conenection  ->  pass
+linea 850+- 
+
+Paquete pyodbc-access (C:\Python27\Lib\site-packages\access\pyodbc)
+REM -> creation.py linea 3:  #from django.utils.hashcompat import md5_constructor
+
+
+mkdir static
+cd static
+
+ln -s  /nfs/http7/febal/.virtualenvs/febal/lib/python2.7/site-packages/django/contrib/admin/static/admin admin
+
+ln -s  /nfs/http7/febal/.virtualenvs/febal/lib/python2.7/site-packages/django_admin_tools-0.5.1-py2.7.egg/admin_tools/static/admin_tools admin_tools

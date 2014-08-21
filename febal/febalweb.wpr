@@ -1,0 +1,41 @@
+#!wing
+#!version=5.0
+##################################################################
+# Wing IDE project file                                          #
+##################################################################
+[project attributes]
+debug.launch-configs = (1,
+                        {'launch-6aMzIrO5ARtQSScU': ({},
+        {'buildcmd': ('project',
+                      ('',
+                       '')),
+         'env': ('project',
+                 []),
+         'name': u'Launch manage.py',
+         'pyexec': ('project',
+                    ''),
+         'pypath': ('project',
+                    ''),
+         'pyrunargs': ('project',
+                       '-u'),
+         'runargs': 'runserver --noreload 8000',
+         'rundir': ('project',
+                    '')})})
+proj.directory-list = [{'dirloc': loc('..'),
+                        'excludes': [u'febal/Dibal.mdb',
+                                     u'dist',
+                                     u'febal/models_casifull.py',
+                                     u'importaciones',
+                                     u'febal/modelsDibal.py',
+                                     u'febal/dibal.db',
+                                     u'_no_menu.py'],
+                        'filter': '*',
+                        'include_hidden': False,
+                        'recursive': True,
+                        'watch_for_changes': True}]
+proj.file-type = 'shared'
+proj.launch-config = {loc('../manage.py'): ('custom',
+        (u'',
+         'launch-6aMzIrO5ARtQSScU'))}
+proj.main-file = loc('../manage.py')
+testing.test-framework = {loc('../manage.py'): ':internal djangotest'}
